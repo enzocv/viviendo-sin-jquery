@@ -2,19 +2,27 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Selector tipo jQuery</title>
-  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <title>Añadir y quitar clases</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1 id="titulo">Selector tipo jQuery (id="titulo")</h1>
-  <h2 id="subtitulo">Subtitulo (id="subtitulo")</h2>
-  <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas feugiat dolor. Quisque eget eros quis neque egestas ultricies. Aliquam porttitor metus ut egestas consequat. Nullam vel dui in justo scelerisque egestas.</p>
-  <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas feugiat dolor. Quisque eget eros quis neque egestas ultricies. Aliquam porttitor metus ut egestas consequat. Nullam vel dui in justo scelerisque egestas.</p>
-  <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas feugiat dolor. Quisque eget eros quis neque egestas ultricies. Aliquam porttitor metus ut egestas consequat. Nullam vel dui in justo scelerisque egestas.</p>
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
+  <h1>Añadir y quitar clases</h1>
+
+  <div id="toggle-menu" class="toggle-menu">Menu</div>
+
+  <ul class="menu" id="menu">
+    <li class="menu__item">
+      <a href="#" class="menu__link">Item 1</a>
+    </li>
+    <li class="menu__item">
+      <a href="#" class="menu__link">Item 2</a>
+    </li>
+    <li class="menu__item">
+      <a href="#" class="menu__link">Item 3</a>
+    </li>
   </ul>
-  <script src="selectorTipoJquery.js"></script>
+
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="addRemoveClass.js"></script>
 </body>
 </html>
